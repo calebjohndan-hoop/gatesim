@@ -1,0 +1,5 @@
+# Should fail: Y is driven by two gates
+INPUT  A B
+OUTPUT Y
+AND Y A B
+OR  Y A B

@@ -1,0 +1,8 @@
+# 2-to-1 multiplexer: Y = S ? B : A
+INPUT  S A B
+OUTPUT Y
+
+NOT NS S
+AND PA A NS
+AND PB B S
+OR  Y  PA PB

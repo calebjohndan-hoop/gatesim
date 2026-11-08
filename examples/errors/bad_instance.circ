@@ -1,0 +1,8 @@
+# Should fail: half adder module used with the wrong number of outputs
+MODULE HA A B -> S C
+    XOR S A B
+    AND C A B
+END
+INPUT  X Y
+OUTPUT Z
+INSTANCE HA U1 X Y -> Z

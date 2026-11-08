@@ -1,0 +1,10 @@
+# Full adder: A + B + carry-in
+# Gates are deliberately written out of order: GateSim sorts them.
+INPUT  A B CIN
+OUTPUT SUM COUT
+
+OR  COUT  T2 T3
+XOR SUM   T1 CIN
+AND T3    A B
+XOR T1    A B
+AND T2    T1 CIN

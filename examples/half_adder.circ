@@ -1,0 +1,6 @@
+# Half adder: adds two 1-bit numbers
+INPUT  A B
+OUTPUT SUM CARRY
+
+XOR SUM   A B
+AND CARRY A B

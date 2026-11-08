@@ -1,0 +1,4 @@
+# Should fail: wire T is used but nothing drives it
+INPUT  A B
+OUTPUT Y
+AND Y A T

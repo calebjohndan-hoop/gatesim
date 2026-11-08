@@ -1,0 +1,5 @@
+# Should fail: X depends on Y, Y depends on X
+INPUT  A
+OUTPUT X
+AND X A Y
+OR  Y A X
